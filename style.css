@@ -1,0 +1,92 @@
+ul{
+    display: flex;
+    margin-top: 61px;
+    justify-content: center;
+    text-align: center;
+    width: 700px ;
+    gap: 20px;
+}
+.titulo-principal{
+    margin-top: 73px;
+    color: #fff;
+}
+.organizacao-Horizontal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.titulo-principal{
+    text-align: center;
+}
+button{
+    margin-top: 136px;
+    margin-bottom: 88px;
+    padding: 24px 40px;
+    border: 1px solid white;
+    background-color: black;
+    color: #fff;
+}
+button:hover{ 
+    transition: 1s;
+    background-color: #fff;
+    color:black
+}
+figcaption{
+    text-align: center;
+    margin-top: 18px;
+    color: #fff;
+}
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.imagens-perfil{
+    overflow: hidden;
+    width: 100%;
+    max-width: 160px;
+    max-height: 160px;
+}
+.imagem-do-perfil{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    
+}
+
+.imagem-do-perfil:hover{
+    transition: 1s;
+    transform: scale(1.3);
+    overflow: hidden;
+    
+}
+
+.kenzieflix-logo{
+    margin-top: 42px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+li{
+    
+    width: 160px;
+    
+       
+}
+.bordas-perfil{
+    
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #000;
+
+}
+.bordas-perfil:hover{
+    border:2px solid #fff;
+    transition: 1s;
+}
